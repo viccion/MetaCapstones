@@ -83,9 +83,7 @@ const handleSubmit = (event) => {
 
     <div className="align-baseline" style={{textAlign:'left'}}>
                 <label className="align-baseline" style={{marginTop:'25px', fontWeight:'bold'}} htmlFor="date">Select Date</label> <br></br></div>
-                <input className="form-control" type="date" id="date" required
-                value={date}
-                onChange={handleDateChange}></input>
+                <input className="form-control" type="date" id="date" required value={date}    onChange={handleDateChange}></input>
                 
             </div>
 

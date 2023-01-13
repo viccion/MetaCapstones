@@ -14,10 +14,10 @@ import {fetchAPI} from './temp.js'
 function Main() {
 
 
-function updateTimes(date) {
-  return (
-      fetchAPI(date)
-  );
+  function updateTimes(date) {
+    console.log(fetchAPI(date));
+    dispatch(fetchAPI(date));
+    console.log(availableTimes)
 }
 
 const output = fetchAPI(new Date());
